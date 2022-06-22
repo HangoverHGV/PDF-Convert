@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    image: hangoverhgv/pdfconverter:01
+    container_name: pdf_converter
+    ports:
+      - 80:8080
+
